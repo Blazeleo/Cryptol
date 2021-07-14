@@ -5,6 +5,9 @@
 	$_SESSION['loggedin'] = 'FALSE';
 ?>
 
+
+
+
     <!DOCTYPE html>
     <html>
 
@@ -33,17 +36,11 @@
                         <input type="password" name="password" required>
                         <label>Password</label>
                     </div>
-                    <button name="login" type="submit" style="background-color: #141e30">Login</button>
+                    <a><button name="login" type="submit" style="background-color: rgba(0, 0, 0, .5);border: 0px !important;padding: 15px!important; margin: 10px;">Login</button></a>
+                    <a href="register.php"><button  type="button" class="register_btn" style="background-color: rgba(0, 0, 0, .5);border: 0px !important;padding: 15px!important; margin-top: 10px;margin-left:30px">Register</button></a>
                 </form>
             </div>
-
-
-
-
-
-
-            <button class="login_button" name="login" type="submit">Login</button>
-            <a href="register.php"><button type="button" class="register_btn">Register</button></a>
+            
 
 
 

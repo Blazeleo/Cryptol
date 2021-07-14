@@ -58,7 +58,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  /* color: #212529; */
   text-align: left;
   background-color: #fff;
 }
@@ -4320,7 +4320,9 @@ input[type="button"].btn-block {
 }
 
 .navbar {
-  position: relative;
+  width:100vw;
+  position: fixed;
+  z-index: 999;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -4349,6 +4351,7 @@ input[type="button"].btn-block {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
+  margin-left: 0.5rem;
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;

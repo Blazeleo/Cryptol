@@ -7,11 +7,31 @@
 <html>
 <head>
 <title>Sign Up Page</title>
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="style.css">
 </head>
 <body style="background-color:#bdc3c7">
 	<div id="main-wrapper">
-	<center><h2>Sign Up Form</h2></center>
+	<div class="login-box">
+                <h2>Login</h2>
+                <form action="login.php" method="post">
+                    <div class="user-box">
+                        <input type="text" name="username" required>
+                        <label>Username</label>
+                    </div>
+                    <div class="user-box">
+                        <input type="password" name="password" required>
+                        <label>Password</label>
+                    </div>
+                    <a><button name="login" type="submit" style="background-color: rgba(0, 0, 0, .5);border: 0px !important;padding: 15px!important; margin: 10px;">Login</button></a>
+                    <a href="register.php"><button  type="button" class="register_btn" style="background-color: rgba(0, 0, 0, .5);border: 0px !important;padding: 15px!important; margin-top: 10px;margin-left:30px">Register</button></a>
+                </form>
+            </div>
+		
+
+
+
+
+
 		<form action="register.php" method="post">
 			<div class="inner_container">
 				<label><b>Username</b></label>

@@ -17,7 +17,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">CRYPTOL</a>
+        <a class="navbar-brand" href="./Cryptol.php">CRYPTOL</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent" style="display: flex;">
             <a class="nav-link"  href="./Exchange.html">Exchange </a>
